@@ -18,7 +18,7 @@ col1,col2,col3 = st.columns(3)
 with col1:
     st.title("")
 with col2:
-    st.image("img\logo.png", width=300)
+    st.image("img/logo.png", width=300)
 with col3:
     st.title("")
 
