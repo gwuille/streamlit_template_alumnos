@@ -39,7 +39,7 @@ def genere_selec(genero_select):
 st.title("Mi primera APP")
 
 #--------------------SIDEBAR----------------------------#
-st.sidebar.image("img\logo.png", width=150)
+st.sidebar.image("img/logo.png", width=150)
 st.sidebar.title("MENÚ")
 st.sidebar.subheader("Filtros para utilizar en la tabla")
 st.sidebar.write("")
