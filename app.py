@@ -107,6 +107,8 @@ with tab1:
 
 with tab2:
     st.header("Guillermo")
+    guille = px.histogram(df0, x="Puntuación", template="plotly_dark", color="Tipo", title="Histograma de Calidad de Vinos")
+    st.plotly_chart(guille)
 with tab3:
     st.header("Pilar")
 with tab4:
